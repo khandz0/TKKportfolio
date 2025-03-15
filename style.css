@@ -231,3 +231,23 @@ p {
     opacity: 0;
     pointer-events: none;
 }
+
+@media screen and (max-width: 768px) {
+    .gradient-background {
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+    }
+    section {
+        flex-direction: column;
+        text-align: center;
+        font-size: 50%;
+        z-index: 0;
+    }
+
+}
