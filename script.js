@@ -102,7 +102,7 @@ document.addEventListener('mousemove', (e) => {
         }, 2000);
     }, 10);
     
-    // Subtle movement of gradient spheres
+    /* Subtle movement of gradient spheres
     const spheres = document.querySelectorAll('.gradient-sphere');
     const moveX = (e.clientX / window.innerWidth - 0.5) * 5;
     const moveY = (e.clientY / window.innerHeight - 0.5) * 5;
@@ -110,5 +110,5 @@ document.addEventListener('mousemove', (e) => {
     spheres.forEach(sphere => {
         const currentTransform = getComputedStyle(sphere).transform;
         sphere.style.transform = `translate(${moveX}px, ${moveY}px)`;
-    });
+    }); */
 });
