@@ -1,1 +1,14 @@
-node_modules
+node_modules/      # Dependencies (for Node.js projects)
+dist/              # Build output
+coverage/          # Test coverage reports
+logs/              # Application logs
+*.log             # Ignore all log files
+*.DS_Store        # Ignore macOS system files
+*.env             # Ignore all environment variable files
+.env               # API keys, secrets, credentials
+config.json        # Private configurations
+database.sqlite    # Local database files
+*.pem              # SSL certificates
+src/components/files/
+src/components/images/
+src/components/ContactForm.tsx
