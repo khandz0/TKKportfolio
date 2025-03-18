@@ -1,6 +1,7 @@
 import React from "react";
 import { Download /*ArrowDown*/ } from "lucide-react";
 import research from "./images/research-img.jpeg";
+import resume from "./files/TKKieu_Resume.pdf";
 const Hero: React.FC = () => {
   // const scrollToProfile = () => {
   //   document.getElementById("profile")?.scrollIntoView({ behavior: "smooth" });
@@ -8,6 +9,7 @@ const Hero: React.FC = () => {
   const handleDownloadResume = () => {
     // Handle resume download
     console.log("Downloading resume...");
+    window.open(resume);
   };
 
   return (
