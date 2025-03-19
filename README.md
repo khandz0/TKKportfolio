@@ -6,7 +6,7 @@ Welcome to **TKK Portfolio**, my personal portfolio website showcasing my **skil
 
 ## 🔗 Live Portfolio
 
-🚀 [View My Portfolio](your-live-portfolio-link-here)
+🚀 [View My Portfolio](https://khandz0.github.io/TKKportfolio/)
 
 ---
 
