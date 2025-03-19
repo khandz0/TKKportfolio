@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
     {
       title: "Portfolio Website",
       description:
-        "A modern portfolio website built with React and Tailwind CSS.",
+        "A modern portfolio website built with React and Tailwind CSS, showcasing my skills, experience, and projects in a modern and interactive way.",
       image: portfolio,
       category: "Web",
       technologies: ["React", "TypeScript", "Tailwind CSS"],
@@ -20,24 +20,25 @@ const Projects: React.FC = () => {
     },
     {
       title: "To-Do List App",
-      description: "A simple task management application.",
+      description:
+        "A simple and intuitive drag-and-drop To-Do List web application designed for efficient task management.",
       image: todolist,
       category: "Web",
       technologies: ["HTML5", "JavaScript", "CSS", "Drag & Drop API"],
       github: "https://github.com/khandz0/Todo-App",
       demo: "https://khandz0.github.io/Todo-App/",
     },
-    {
-      title: "Pickleball Guide App",
-      description:
-        "A pickleball website that guides users how to play pickleball.",
-      image:
-        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80",
-      category: "Web",
-      technologies: ["React", "TypesScript", "Maps API", "Weather API"],
-      github: "https://github.com/khandz0/pickleball-guide",
-      demo: "https://demo.com",
-    },
+    // {
+    //   title: "Pickleball Guide App",
+    //   description:
+    //     "A pickleball website that guides users how to play pickleball.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80",
+    //   category: "Web",
+    //   technologies: ["React", "TypesScript", "Maps API", "Weather API"],
+    //   github: "https://github.com/khandz0/pickleball-guide",
+    //   demo: "https://demo.com",
+    // },
   ];
 
   const filteredProjects = projects.filter(
