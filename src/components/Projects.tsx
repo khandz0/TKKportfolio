@@ -21,7 +21,6 @@ const Projects: React.FC = () => {
         "Node.js + Express",
         "PostgreSQL",
         "JWT",
-        "cURL",
       ],
       github: "https://github.com/khandz0/pickleball-reservation",
       //demo: "https://demo.com",
