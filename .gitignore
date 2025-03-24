@@ -4,3 +4,5 @@ DS_Store
 # Add additional files or directories below
 dist/
 dist/*
+src/components/files/
+src/components/images/
