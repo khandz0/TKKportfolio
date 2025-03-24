@@ -28,17 +28,24 @@ const Projects: React.FC = () => {
       github: "https://github.com/khandz0/Todo-App",
       demo: "https://khandz0.github.io/Todo-App/",
     },
-    // {
-    //   title: "Pickleball Guide App",
-    //   description:
-    //     "A pickleball website that guides users how to play pickleball.",
-    //   image:
-    //     "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80",
-    //   category: "Web",
-    //   technologies: ["React", "TypesScript", "Maps API", "Weather API"],
-    //   github: "https://github.com/khandz0/pickleball-guide",
-    //   demo: "https://demo.com",
-    // },
+    {
+      title: "Pickleball Reservation RESTful API",
+      description:
+        "A full-featured RESTful API for reserving pickleball courts with user authentication, admin controls, Google Maps integration, and double booking prevention. Built with Node.js, Express, and PostgreSQL.",
+      image:
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80",
+      category: "Web",
+      technologies: [
+        "JavaScript",
+        "Google Maps API",
+        "Node.js + Express",
+        "PostgreSQL",
+        "JWT",
+        "cURL",
+      ],
+      github: "https://github.com/khandz0/pickleball-reservation",
+      //demo: "https://demo.com",
+    },
   ];
 
   const filteredProjects = projects.filter(
