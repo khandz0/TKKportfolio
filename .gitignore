@@ -1,6 +1,6 @@
-./src/*
-./node_modules/*
-.DS_Store
+src/*
+node_modules/*
+DS_Store
 # Add additional files or directories below
 .env
 /logs/*
