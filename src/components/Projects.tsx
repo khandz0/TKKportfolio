@@ -9,9 +9,27 @@ const Projects: React.FC = () => {
 
   const projects = [
     {
+      title: "Pickleball Reservation RESTful API",
+      description:
+        "A full-featured RESTful API for reserving pickleball courts with user authentication, admin controls, Google Maps integration, and double booking prevention. Built with Node.js, Express, and PostgreSQL.",
+      image:
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80",
+      category: "Backend",
+      technologies: [
+        "JavaScript",
+        "Google Maps API",
+        "Node.js + Express",
+        "PostgreSQL",
+        "JWT",
+        "cURL",
+      ],
+      github: "https://github.com/khandz0/pickleball-reservation",
+      //demo: "https://demo.com",
+    },
+    {
       title: "Portfolio Website",
       description:
-        "A modern portfolio website built with React and Tailwind CSS, showcasing my skills, experience, and projects in a modern and interactive way.",
+        "A modern, fully responsive personal portfolio website designed and developed by Thien Khang Kieu. It showcases your skills, experience, and projects with interactive UI elements, smooth navigation, and a downloadable resume.",
       image: portfolio,
       category: "Web",
       technologies: ["React", "TypeScript", "Tailwind CSS"],
@@ -27,24 +45,6 @@ const Projects: React.FC = () => {
       technologies: ["HTML5", "JavaScript", "CSS", "Drag & Drop API"],
       github: "https://github.com/khandz0/Todo-App",
       demo: "https://khandz0.github.io/Todo-App/",
-    },
-    {
-      title: "Pickleball Reservation RESTful API",
-      description:
-        "A full-featured RESTful API for reserving pickleball courts with user authentication, admin controls, Google Maps integration, and double booking prevention. Built with Node.js, Express, and PostgreSQL.",
-      image:
-        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80",
-      category: "Web",
-      technologies: [
-        "JavaScript",
-        "Google Maps API",
-        "Node.js + Express",
-        "PostgreSQL",
-        "JWT",
-        "cURL",
-      ],
-      github: "https://github.com/khandz0/pickleball-reservation",
-      //demo: "https://demo.com",
     },
   ];
 
