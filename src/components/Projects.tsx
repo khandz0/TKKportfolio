@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { ExternalLink, Github } from "lucide-react";
 import portfolio from "./images/portfolio.png";
 import todolist from "./images/todolistapp.png";
+import pickleball from "./images/pickleball.jpg";
 
 const Projects: React.FC = () => {
   const categories = ["All", "Web", "Mobile", "Backend"];
@@ -12,8 +13,7 @@ const Projects: React.FC = () => {
       title: "Pickleball Reservation RESTful API",
       description:
         "A full-featured RESTful API for reserving pickleball courts with user authentication, admin controls, Google Maps integration, and double booking prevention. Built with Node.js, Express, and PostgreSQL.",
-      image:
-        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80",
+      image: pickleball,
       category: "Backend",
       technologies: [
         "JavaScript",
